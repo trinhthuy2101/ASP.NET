@@ -1,22 +1,29 @@
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 2px;
+    padding: 2px;;
     box-sizing: border-box;
 }
-#head_navi,#footer{
-    background-color:#355c7d;
-}
 main {
-    font-family: "Poppins", sans-serif;
     min-height: 100vh;
-    background: linear-gradient(to right top,#355C7D,#CD6C84);
    display:flex;
    align-items:center;
    justify-content:center;
   }
   
-  .glass {
+form{
+    left:85%;
+    position:absolute;
+}
+button{
+    border-radius: 10px;
+    border:0;
+    font-size: 15px;
+    width: 120px;
+    height:35px;
+    background: linear-gradient(to right bottom,rgba(246,114,128,0.4),rgba(248,177,149,0.7));
+}
+.glass {
     background: white;
     min-height: 80vh;
     width: 55%;
@@ -28,9 +35,77 @@ main {
     border-radius: 20px;
     z-index:2;
     backdrop-filter:blur(3px);
-    flex-direction: column;
+    display:flex;
   }
   
+
+.dashboard{
+    background: linear-gradient(
+        to right bottom,
+        rgba(255, 255, 255, 0.7),
+        rgba(255, 255, 255, 0.3)
+      );
+      border-radius: 20px;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+    justify-content: center;
+    margin:1px;
+}
+.author{
+    flex:1;
+}
+.author img{
+    margin:0;
+    padding:0;
+}
+.author figcaption{
+    margin:0;
+    padding:0;  
+}
+.content{
+    flex:3;
+}
+.slogan{
+    flex:3;
+    color:#355C7D;
+    font-size:30px;
+}
+.wrapper{
+    flex:3;
+    align-items:center;
+    justify-content: center;
+    display:grid;
+    grid-template-columns: 130px 130px 130px;
+    grid-template-rows: 110px 110px 110px;
+}
+.item1, .item2,.item3,.item4,.item5,.item6{
+    background-color:#355C7D;
+}
+.item1 {
+   background-image: url(../image/August.png);
+    grid-column-start: 1;
+    grid-column-end: 3;
+    border:0;
+    border-radius: 10px;
+    margin:0;
+    padding:0;
+}
+.item3 {
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border:0;
+    border-radius: 39px;
+    margin:0;
+    padding:0;
+}
+.item4 {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+
+
 
 .circle1{    
     background:linear-gradient(to right bottom,rgba(246,114,128,0.7), rgba(53,92,125,0.9));
@@ -54,32 +129,9 @@ main {
     position: absolute;
 }
 
-.audio{
-    flex:3;
-    align-items:center;
-    display:flex;
-}
-.central-img{
-    flex:1;
-}
-.sound{
-    flex:9;
-}
-.WDImage{
-    flex:1;
-}
-    
-h1{
-    font-size: 40px;
-    color:black;
-}
-ul{
-    color:BLUE;
-}
-#body{
-    background-color:white;
-}
-form{
-    left:80%;
-    position:absolute;
+
+
+
+body{
+    background: linear-gradient(to right top,#355C7D,#CD6C84);
 }
