@@ -1,0 +1,99 @@
+*{
+    margin: 2px;
+    padding: 2px;;
+    box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background: linear-gradient(to right top,#355C7D,#CD6C84);
+   
+}
+.body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.head-navig{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.but1,.but2,.but3,.but4,.but5,.but6,.but7{
+    margin:10px;
+    border-radius: 10px;
+    border:0;
+    font-size: 15px;
+    width: 120px;
+    height:35px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.but1{    
+    background: linear-gradient(to right,#f8b195,#f67280);
+}
+.but2{    
+    background: linear-gradient(to right,#f67280,#f5635e);
+}
+
+.but3{    
+    background: linear-gradient(to right,#f5635e,#be4f4c);
+}
+
+.but4{    
+    background: linear-gradient(to right,#be4f4c,#b44855);
+}
+
+.but5{    
+    background: linear-gradient(to right,#b44855,#6c5b7b);
+}
+
+.but6{    
+    background: linear-gradient(to right,#6c5b7b,#465d8d);
+}
+
+.but7{    
+    background: linear-gradient(to right,#465d8d,#355c7d);
+}
+
+
+.lyrics{
+    background: white;
+    min-height: 80vh;
+    width: 55%;
+    background: linear-gradient(
+      to right top,
+      rgba(255, 255, 255, 0.7 ),
+      rgba(255, 255, 255, 0.1)
+    );
+    border-radius: 20px;
+    z-index:2;
+    backdrop-filter:blur(3px);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+}
+.circle1,.circle2{
+    background:linear-gradient(to right bottom,rgba(246,114,128,0.7), rgba(53,92,125,0.9));
+    border-radius: 50%;
+    position: absolute;
+}
+.video{
+    z-index:1;
+}
+.circle1{    
+    bottom: 0%;
+    left: 10%;
+    width: 250px;
+    height: 250px;
+}
+.circle2{
+    top: 120%;
+    left: 75%;
+    width: 200px;
+    height: 200px;
+   
+}
