@@ -118,5 +118,8 @@ h1{
 .image{
     background-color:white;
     border-radius:15px;
-    padding:1px;
+    border:0;
+    padding:0;
+    display:flex;
+    margin:0;;
 }
