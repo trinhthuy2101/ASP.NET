@@ -40,30 +40,30 @@ h1{
     justify-content: center;
 }
 .but1{    
-    background: linear-gradient(to right,#f8b195,#f67280);
+    background-color:#f8b195;
 }
 .but2{    
-    background: linear-gradient(to right,#f67280,#f5635e);
+    background-color:#f58783;
 }
 
 .but3{    
-    background: linear-gradient(to right,#f5635e,#be4f4c);
+    background-color:#f67280;
 }
 
-.but4{    
-    background: linear-gradient(to right,#be4f4c,#b44855);
+.but4{   
+    background-color: #cd6c84;
 }
 
 .but5{    
-    background: linear-gradient(to right,#b44855,#6c5b7b);
+    background-color:#6c5b7b;
 }
 
 .but6{    
-    background: linear-gradient(to right,#6c5b7b,#465d8d);
+    background-color:#465d8d;
 }
 
-.but7{    
-    background: linear-gradient(to right,#465d8d,#355c7d);
+.but7{  
+    background-color:#355c7d; 
 }
 
 .title{
