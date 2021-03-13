@@ -14,6 +14,9 @@ a{
     text-decoration:none;
     color:yellow;
 }
+h1{
+    color:white;
+}
 .body{
     display:flex;
     flex-direction: column;
@@ -145,9 +148,7 @@ color:#355C7D;
     width:50%;
     height:50%;
 }
-h1{
-    color:white;
-}
+
 .title-1{
     font-size:25px;
     }

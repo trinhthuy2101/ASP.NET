@@ -10,7 +10,9 @@ body{
 }
 a{
     text-decoration:none;
-    color:white;
+}
+.head-navig a{
+    color:yellow;
 }
 .body{
     display:flex;
