@@ -13,6 +13,7 @@ main {
   }
 body{
     background: linear-gradient(to right top,#355C7D,#CD6C84);
+    text-align: center;
 }
 form{
     left:85%;
@@ -26,8 +27,7 @@ button{
     height:35px;
     background: linear-gradient(to right bottom,rgba(246,114,128,0.4),rgba(248,177,149,0.7));
 }
-
-h2{
+.footer h2{
     color:#F1AF00;
     font-size:20px;
 }
@@ -89,18 +89,17 @@ h2{
     grid-template-columns: 110px 110px 110px;
     grid-template-rows: 110px 110px 110px;
 }
-.item1,.item2,.item3,.item4,.item5,.item6{
-    width:105px;
-    height:105px;
+.wrapper img{
     background-color:white;
+    border-radius:15px;
+    padding:3px;
+}
+.wrapper a{
     display:flex;
     align-items:center;
     justify-content: center;
-    margin:0;
-    padding:0;
-    border:0;
-    border-radius:15px;
 }
+
 .item1 {
     width:215px;
     height:215px;
@@ -125,7 +124,6 @@ h2{
     left: 68%;
     width: 200px;
     height: 200px;
-   
 }
 .song,.heart{
     color:#f70c47
